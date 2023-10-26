@@ -1,0 +1,67 @@
+.signIn
+{
+    background-size: cover;
+    flex: 1;
+    background: rgb(156,230,238);
+    background: linear-gradient(94deg, rgba(156,230,238,1) 0%, rgba(196,240,245,1) 11%, rgba(183,236,242,1) 45%, rgba(179,242,249,1) 74%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form
+{
+    background-color: #fff;
+    padding: 30px;
+    border: 1px solid #46b6c28f;
+    /* box-shadow: 0.5px 0.5px 5px #4a3d47;
+     */
+     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    /* opacity: 0.8; */
+    border-radius: 1px;
+}
+.signInLogo{
+    width: 200px;
+    object-fit: contain;
+    padding: 10px 0px;
+}
+.loginPara
+{
+    color: #4a3d47;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 0px 40px 20px 40px;
+}
+input{
+    padding: 10px;
+    margin: 8px 0px;
+    outline: none;
+    font-style: 16px
+    ;
+    width: 100%;box-sizing: border-box;
+    /* border-radius:4px;    */
+}
+.form > div{
+    width: 80%;
+    margin: auto;
+
+}
+#submit-btn
+{
+    background-color: #46b6c2;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    padding: 10px 10px ;
+    width: 80%;
+    cursor: pointer;
+    margin-top: 8px;
+
+}
+.form2
+{
+    margin-top: 15px;
+}
